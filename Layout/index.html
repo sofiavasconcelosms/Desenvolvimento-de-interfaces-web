@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout de Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0
+    }
+
+    header {
+      background-color: #0000ff54;
+      color: #fff;
+      padding: 32px;
+      text-align: left;
+    }
+
+    nav {
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+      text-align: left;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bem-vindo ao site Atividade</h1>
+  </header>
+  <nav>
+    <a href="#">Página Inicial</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+    <a href="#">Pesquisa</a>
+    <a href="#">Duvidas</a>
+  </nav>
+  <div class="sidebar">
+    <div class="search-box">
+      <form action="#" method="get">
+        <input type="text" name="search" placeholder="Pesquisar...">
+        <input type="submit" value="Buscar">
+      </form>
+    </div>
+  </div>
+  <section>
+    <!--linha divisória -->
+    <hr>
+    <style>
+      .search-box {
+        width: 10%;
+        background-color: #29234154;
+        color: #fff;
+        border: none;
+        padding: 10px;
+      }
+
+      h2 {
+        background-color: blueviolet;
+        color: #fff;
+        padding: 24px;
+        text-align: center;
+      }
+    </style>
+
+    <h2>Semana 3 - Exercício Prático</h2>
+    <!--linha divisória -->
+    <hr>
+    <p>Nesse trabalho, vamos montar uma ideia de layout de site que integre alguns conjuntos de elementos (header, barra
+      lateral e conteúdo central). Encaminho abaixo três exemplos que trazem algo parecido com a proposta para este
+      trabalho.
+      Para montar isso, vocês devem utilizar os elementos semânticos do HTML (header, aside, main, footer). Não se
+      preocupe, o objetivo aqui é exercitar e não cumprir um layout perfeito. Faça o que você conseguir, quero que vocês
+      entreguem pelo menos 3 conjuntos distintos e da forma que conseguirem organizar na página.
+
+      O layout de vocês deve apresentar, obrigatoriamente os seguinte requisitos:
+    <ul>
+      <li>Três seções visivelmente distintas (header, barra lateral, conteúdo central)</li>
+      <li>Toda seção deve trazer pelo menos três elementos dentro que devem ser organizados como componentes usando a
+        tag <div> como a tag inicial</li>
+      <li>Deve haver algum formulário com pelo menos 2 campos e um botão (login, subscribe, pesquisa, etc)</li>
+      <li>Não há obrigação de ficarem completamente posicionados e nem certinho como nas imagens. </li>
+    </ul>
+    </p>
+  </section>
+  <footer>
+    <p>&copy; 2024 Meu Site - Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>
