@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de viagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="dicas_viagem.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" style="background-color: rgb(222, 222, 255);">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Dicas de viagem</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="descricao">
+            <h4 class="sobre">Sobre nos</h4>
+            <hr>
+            <p>Com o nosso site você vai descubrir um mundo de destinos incríveis, dicas úteis e inspiração para tornar suas viagens inesquecíveis.
+                Em nosso portal, você encontrará informações sobre os melhores lugares do mundo para viajar. Com
+                recomendações abrangentes, garantimos uma experiência autêntica em cada destino. Planejar sua próxima
+                aventura é simples, com
+                sugestões para viajantes de todos os estilos. Encontre dicas sobre hospedagem, gastronomia e atividades
+                locais. Prepare-se para descobrir novos lugares, viver grandes
+                aventuras e criar memórias inesquecíveis. No Dicas de viagem, estamos aqui para tornar seus sonhos de
+                viagem realidade!</p>
+        </section>
+
+        <section id="busca">
+
+            <header>
+                <h2>Busca de lugares</h2>
+            </header>
+
+            <form class="pesquisa">
+                <div>
+                    <input type="text" name="viagens" id="viagens" placeholder="Nome do lugar">
+                </div>
+                <button id="buscarLugares" type="button">Buscar</button>
+            </form>
+
+        </section>
+       
+        <section id="destinos"> 
+            <!-- Os destinos serão preenchidos aqui pelo JavaScript -->
+        </section>
+
+    </main>
+
+
+    <script type="module" src="dicas_viagem.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+{
+    "destinos": [
+        {
+            "nome": "Paris, França",
+            "dicas": {
+                "hospedagem": [
+                    {
+                        "nome": "Hotel Le Bristol Paris",
+                        "descricao": "Um luxuoso hotel cinco estrelas localizado no coração de Paris, oferecendo quartos elegantes, serviço impecável e vistas deslumbrantes da cidade."
+                    },
+                    {
+                        "nome": "Airbnb no Marais",
+                        "descricao": "Experimente a vida parisiense como um local hospedando-se em um charmoso apartamento no bairro histórico do Marais, cercado por cafés pitorescos e boutiques elegantes."
+                    }
+                ],
+                "gastronomia": [
+                    {
+                        "nome": "Le Cinq",
+                        "tipo": "Restaurante",
+                        "descricao": "Desfrute de uma experiência gastronômica sublime neste restaurante com três estrelas Michelin, onde pratos requintados são apresentados com maestria."
+                    },
+                    {
+                        "nome": "Boulangerie Poilâne",
+                        "tipo": "Padaria",
+                        "descricao": "Saboreie deliciosos pães artesanais e croissants frescos nesta famosa padaria parisiense, uma visita obrigatória para os amantes da gastronomia."
+                    }
+                ],
+                "atividades_locais": [
+                    {
+                        "nome": "Torre Eiffel",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Não perca a chance de admirar a icônica Torre Eiffel, símbolo de Paris, de dia ou de noite, proporcionando vistas panorâmicas deslumbrantes da cidade."
+                    },
+                    {
+                        "nome": "Passeio de barco pelo Rio Sena",
+                        "tipo": "Atividade",
+                        "descricao": "Explore os encantos de Paris a partir de uma perspectiva diferente em um tranquilo passeio de barco pelo Rio Sena, passando por pontos turísticos famosos como a Catedral de Notre-Dame e o Museu do Louvre."
+                    },
+                    {
+                        "nome": "Jardim de Luxemburgo",
+                        "tipo": "Parque",
+                        "descricao": "Relaxe em um dos parques mais pitorescos de Paris, o Jardim de Luxemburgo, onde você pode passear entre belos jardins, fontes e até mesmo alugar um barco para velejar no lago."
+                    }
+                ]
+            }
+        },
+        {
+            "nome": "Nova York, Estados Unidos",
+            "dicas": {
+                "hospedagem": [
+                    {
+                        "nome": "The Plaza Hotel",
+                        "descricao": "Um ícone de luxo e elegância, o The Plaza Hotel oferece acomodações deslumbrantes e serviço de classe mundial, localizado em frente ao Central Park."
+                    },
+                    {
+                        "nome": "Airbnb no Brooklyn",
+                        "descricao": "Experimente a vida local hospedando-se em um charmoso apartamento no Brooklyn, onde você pode mergulhar na vibrante cena cultural e gastronômica da cidade."
+                    }
+                ],
+                "gastronomia": [
+                    {
+                        "nome": "Le Bernardin",
+                        "tipo": "Restaurante",
+                        "descricao": "Desfrute de uma experiência gastronômica extraordinária neste renomado restaurante com três estrelas Michelin, especializado em frutos do mar frescos e inovadores."
+                    },
+                    {
+                        "nome": "Katz's Delicatessen",
+                        "tipo": "Delicatessen",
+                        "descricao": "Saboreie os autênticos sabores de Nova York em um dos mais famosos delis da cidade, conhecido por seus sanduíches de pastrami suculentos e pickles crocantes."
+                    }
+                ],
+                "atividades_locais": [
+                    {
+                        "nome": "Central Park",
+                        "tipo": "Parque",
+                        "descricao": "Explore o icônico Central Park, um oásis verde no coração de Manhattan, onde você pode fazer piqueniques, andar de bicicleta, remar de barco e muito mais."
+                    },
+                    {
+                        "nome": "Estátua da Liberdade",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Visite a emblemática Estátua da Liberdade e Ellis Island, símbolos da liberdade e da imigração nos Estados Unidos, com vistas deslumbrantes do skyline de Manhattan."
+                    },
+                    {
+                        "nome": "Broadway",
+                        "tipo": "Atividade",
+                        "descricao": "Desfrute de uma noite inesquecível na Broadway, assistindo a um dos famosos musicais da cidade em um dos renomados teatros da região dos teatros de Nova York."
+                    }
+                ]
+            }
+        },
+        {
+            "nome": "Tóquio, Japão",
+            "dicas": {
+                "hospedagem": [
+                    {
+                        "nome": "Park Hyatt Tokyo",
+                        "descricao": "Experimente o luxo e a sofisticação no Park Hyatt Tokyo, oferecendo vistas deslumbrantes da cidade, quartos elegantes e restaurantes premiados."
+                    },
+                    {
+                        "nome": "Ryokan em Asakusa",
+                        "descricao": "Viva uma experiência autêntica japonesa hospedando-se em um tradicional ryokan em Asakusa, onde você pode desfrutar de quartos com tatames, banhos termais e hospitalidade japonesa."
+                    }
+                ],
+                "gastronomia": [
+                    {
+                        "nome": "Sukiyabashi Jiro",
+                        "tipo": "Restaurante",
+                        "descricao": "Delicie-se com a perfeição do sushi no Sukiyabashi Jiro, um dos mais famosos restaurantes de sushi do mundo, comandado pelo lendário chef Jiro Ono."
+                    },
+                    {
+                        "nome": "Ramen de Ichiran",
+                        "tipo": "Ramen",
+                        "descricao": "Experimente o autêntico sabor do ramen japonês no Ichiran, onde você pode personalizar seu prato de acordo com suas preferências em cabines individuais."
+                    }
+                ],
+                "atividades_locais": [
+                    {
+                        "nome": "Templo Senso-ji",
+                        "tipo": "Templo",
+                        "descricao": "Explore o Templo Senso-ji em Asakusa, o mais antigo e mais visitado templo de Tóquio, onde você pode participar de rituais religiosos e explorar as ruas comerciais tradicionais."
+                    },
+                    {
+                        "nome": "Bairro de Harajuku",
+                        "tipo": "Bairro",
+                        "descricao": "Mergulhe na cultura jovem e na moda de Tóquio explorando o animado bairro de Harajuku, conhecido por suas lojas de rua extravagantes, cafés temáticos e moda excêntrica."
+                    },
+                    {
+                        "nome": "Parque Ueno",
+                        "tipo": "Parque",
+                        "descricao": "Passeie pelo Parque Ueno, um dos maiores e mais antigos parques de Tóquio, onde você pode encontrar templos, museus, jardins e até mesmo um zoológico."
+                    }
+                ]
+            }
+        },
+        {
+            "nome": "Roma, Itália",
+            "dicas": {
+                "hospedagem": [
+                    {
+                        "nome": "Hotel de Russie",
+                        "descricao": "Desfrute de elegância e conforto no Hotel de Russie, localizado no coração de Roma, próximo às principais atrações da cidade e oferecendo jardins exuberantes e acomodações de luxo."
+                    },
+                    {
+                        "nome": "Apartamento no Trastevere",
+                        "descricao": "Viva como um local no pitoresco bairro de Trastevere, hospedando-se em um charmoso apartamento onde você pode explorar ruas de paralelepípedos, trattorias autênticas e uma atmosfera boêmia."
+                    }
+                ],
+                "gastronomia": [
+                    {
+                        "nome": "Hostaria Romana",
+                        "tipo": "Trattoria",
+                        "descricao": "Saboreie a autêntica cozinha romana na Hostaria Romana, onde você pode desfrutar de pratos clássicos como cacio e pepe, carbonara e amatriciana em um ambiente acolhedor e familiar."
+                    },
+                    {
+                        "nome": "Gelateria Giolitti",
+                        "tipo": "Gelateria",
+                        "descricao": "Refresque-se com gelato artesanal na Gelateria Giolitti, uma das mais antigas e famosas sorveterias de Roma, oferecendo uma variedade de sabores deliciosos para todos os gostos."
+                    }
+                ],
+                "atividades_locais": [
+                    {
+                        "nome": "Coliseu",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Explore o icônico Coliseu de Roma, um dos símbolos mais emblemáticos do Império Romano, onde você pode aprender sobre a história antiga da cidade e maravilhar-se com sua grandiosidade arquitetônica."
+                    },
+                    {
+                        "nome": "Vaticano",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Visite o Vaticano, o menor país do mundo e sede da Igreja Católica, onde você pode explorar a Basílica de São Pedro, os Museus do Vaticano e a Capela Sistina."
+                    },
+                    {
+                        "nome": "Fontana di Trevi",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Faça um desejo na Fontana di Trevi, a maior e mais famosa fonte de Roma, conhecida por sua beleza barroca e por ser o cenário de filmes clássicos como 'A Doce Vida' de Federico Fellini."
+                    }
+                ]
+            }
+        },
+        {
+            "nome": "Sydney, Austrália",
+            "dicas": {
+                "hospedagem": [
+                    {
+                        "nome": "Park Hyatt Sydney",
+                        "descricao": "Desfrute de luxo e vistas deslumbrantes na beira da água no Park Hyatt Sydney, oferecendo quartos elegantes, um spa relaxante e uma localização privilegiada perto da Sydney Opera House."
+                    },
+                    {
+                        "nome": "Airbnb em Bondi Beach",
+                        "descricao": "Experimente o estilo de vida descontraído de Sydney hospedando-se em um apartamento à beira-mar em Bondi Beach, onde você pode desfrutar de vistas panorâmicas do oceano e surf de classe mundial."
+                    }
+                ],
+                "gastronomia": [
+                    {
+                        "nome": "Quay",
+                        "tipo": "Restaurante",
+                        "descricao": "Desfrute de uma experiência gastronômica inesquecível no Quay, comandado pelo renomado chef Peter Gilmore, oferecendo pratos modernos e vistas espetaculares da Sydney Harbour Bridge e da Opera House."
+                    },
+                    {
+                        "nome": "Fish at the Rocks",
+                        "tipo": "Frutos do Mar",
+                        "descricao": "Saboreie frutos do mar frescos em um ambiente descontraído no Fish at the Rocks, um dos melhores locais para degustar ostras, camarões e peixes locais em Sydney."
+                    }
+                ],
+                "atividades_locais": [
+                    {
+                        "nome": "Sydney Opera House",
+                        "tipo": "Ponto Turístico",
+                        "descricao": "Visite a icônica Sydney Opera House, uma obra-prima da arquitetura moderna e um dos locais mais reconhecíveis da Austrália, onde você pode fazer uma visita guiada ou assistir a um espetáculo ao vivo."
+                    },
+                    {
+                        "nome": "Bondi to Coogee Coastal Walk",
+                        "tipo": "Atividade ao ar livre",
+                        "descricao": "Explore a deslumbrante costa de Sydney fazendo a caminhada de Bondi para Coogee, um trajeto de seis quilômetros que oferece vistas espetaculares das praias, falésias e paisagens costeiras."
+                    },
+                    {
+                        "nome": "Taronga Zoo",
+                        "tipo": "Atração Familiar",
+                        "descricao": "Divirta-se no Taronga Zoo, lar de uma incrível variedade de animais australianos e exóticos, onde você pode participar de experiências únicas, como alimentar coalas e encontrar cangurus."
+                    }
+                ]
+            }
+        }
+    ]
+}
