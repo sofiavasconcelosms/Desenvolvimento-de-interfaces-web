@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade pratica 9</title>
+</head>
+
+<body>
+
+<h1>Atividade pratica 9</h1>
+<p>Exercicio 2: Calculadora Basica</p>
+
+<script>
+
+
+// Exibe um alerta
+alert("Calculadora Basica");
+alert(" Escolha uma operação: soma, subtração, multiplicação ou divisão.")
+// Recebe o valor da operação
+var operacao = prompt("Digite a operação desejada: ");
+// Recebe o valor do primeiro número
+
+var num1 = prompt("Digite o primeiro número: " );
+// Recebe o valor do segundo número
+var num2 = prompt("Digite o segundo número: " );
+// Converte os valores para números
+num1 = Number(num1);
+num2 = Number(num2);
+// Realiza a operação
+var resultado;
+if (operacao == "soma"){
+    resultado = num1 + num2;
+}
+else if (operacao == "subtração"){
+    resultado = num1 - num2;
+}
+else if (operacao == "multiplicação"){
+    resultado = num1 * num2;
+}
+else if (operacao == "divisão"){
+    resultado = num1 / num2;
+}
+// Exibe o resultado
+alert("O resultado é: " + resultado);
+
+
+
+</script>
+
+</body>
+</html>
