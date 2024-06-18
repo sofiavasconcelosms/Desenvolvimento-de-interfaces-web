@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações dos alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btnCarregaDados">Carregar Dados</button>
+
+    <ul id="ulInformacao"></ul>
+
+    <script src="app.js"></script>
+
+    <script>
+        document.getElementById('btnCarregaDados').addEventListener('click', carregaDados);
+
+        function carregaDados() {
+            let ulInformacao = document.getElementById('ulInformacao');
+            let strTextoHTML = '';
+
+            for (let i = 0; i < alunos.length; i++) {
+                let aluno = alunos[i];
+                strTextoHTML += `<li><a href="detalhes.html?matricula=${aluno.matricula}">${aluno.nome} - Matrícula: ${aluno.matricula}</a></li>`;
+            }
+
+            ulInformacao.innerHTML = strTextoHTML;
+        }
+    </script>
+</body>
+
+</html>

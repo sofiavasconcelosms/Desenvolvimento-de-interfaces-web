@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes dos alunos</title>
+</head>
+<body>
+    <div id="tela"></div>
+
+    <script src="app.js"></script>
+    <script>
+        let params = new URLSearchParams(location.search);
+        let matricula = params.get('matricula');
+        let aluno = alunos.find(function(elem) { return elem.matricula === matricula; });
+        let tela = document.getElementById('tela');
+
+        if (aluno) {
+            tela.innerHTML = `<p>Matrícula: ${aluno.matricula}<br>
+                            Nome: <strong>${aluno.nome}</strong><br>
+                            Curso: ${aluno.curso}<br>
+                            Turma: ${aluno.turma}</p>`;
+        } else {
+            tela.innerHTML = `Aluno não encontrado`;
+        }
+    </script>
+</body>
+</html>
