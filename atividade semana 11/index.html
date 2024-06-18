@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="lista-Tarefas.css">
+</head>
+
+<body>
+    <section id="adicionarTarefas">
+        <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
+        <select id="prioritySelect">
+            <option value="prioridade">Prioridade</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+        </select>
+        <button onclick="addTask()">Adicionar Tarefa</button>
+    </section>
+
+    <section id="tabelaTarefas">
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>prioridade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+
+        </table>
+    </div>
+</section>
+
+
+    <script src="lista-tarefas.js"></script>
+</body>
+
+</html>
