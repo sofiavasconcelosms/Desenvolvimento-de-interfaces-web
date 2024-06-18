@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+             
+          $('#teste').click(function(){
+            console.log('attr', $('#campo').attr('value'));
+          console.log('prop', $('#campo').prop('value'));
+            
+          });
+        });
+
+
+    </script>
+</head>
+
+<body>
+    <h1>jquery</h1>
+   
+        <p id="p1">
+            <label for="campo">Nome:</label>
+            <input type="text" id="campo" value="nome"/>
+        </p>
+        <p id="p2">
+            <button id="teste">Valores</button>
+        </p>
+
+</body>
+
+</html>

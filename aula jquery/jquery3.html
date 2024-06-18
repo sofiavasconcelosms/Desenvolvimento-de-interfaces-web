@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#caixa').html('<p>ola</p>');
+            $('#btn').click(function () {
+                $('#caixa').toggleClass('vermelhinho');
+            });
+            /* $('#btn').click(function () {
+                 $('#caixa').addClass('vermelhinho');
+             });
+             $('#btn2').click(function () {
+                 $('#caixa').removeClass('vermelhinho');
+             });*/
+        });
+    </script>
+    <style>
+        .vermelhinho {
+            width: 100px;
+            height: 100px;
+            border: thin solid black;
+            background-Color: #fdd;
+            font-family: Arial;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>jQuery</h1>
+    <div id="caixa"> </div>
+    <p>
+        <button id="btn">Inverte classe</button>
+        <!--<button id="btn">Ativa classe</button>
+            <button id="btn2">Remove classe</button>-->
+    </p>
+
+</body>
+
+</html>
